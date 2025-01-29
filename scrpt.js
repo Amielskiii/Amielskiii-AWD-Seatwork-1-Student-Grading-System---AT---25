@@ -144,9 +144,9 @@ function saveUpdatedStudents() {
 }
 
 function goHome() {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 
 function viewGrades() {
-    window.location.href = "index.html";
+    window.location.href = "grades.html";
 }
