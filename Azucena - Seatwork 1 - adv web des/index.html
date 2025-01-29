@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student GWA System</title>
+    <link rel="stylesheet" href="amiel1.css">
+</head>
+<body>
+    <header>
+        <h1>NYEPMIYU</h1>
+        <img src = "nyemaraw.png" alt = "Logo" class = "header-logo">
+        <div class="header-buttons">
+            <button onclick="goHome()">Home</button>
+            <button onclick="viewGrades()">Grades</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Grading System</h2>
+        <h2>Block: KK22 </h2>
+        <div>
+            <div class="form-group">
+                <label>Student Name:</label>
+                <input type="text" id="studentName" required>
+            </div>
+            <div class="form-group">
+                <label>Grades:</label>
+                <input type="number" id="sub1" min="0.0" max="4.0" required>
+                <input type="number" id="sub2" min="0.0" max="4.0" required>
+                <input type="number" id="sub3" min="0.0" max="4.0" required>
+                <input type="number" id="sub4" min="0.0" max="4.0" required>
+                <input type="number" id="sub5" min="0.0" max="4.0" required>
+                <input type="number" id="sub6" min="0.0" max="4.0" required>
+            </div>
+            <div class="search-bar">
+                <label for="search">Search Student by Name:</label>
+                <input type="text" id="search" oninput="searchStudent()">
+            </div>
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>IT0034</th>
+                    <th>CCS0023</th>
+                    <th>GED0104</th>
+                    <th>IT0069</th>
+                    <th>IT0101</th>
+                    <th>IT0011</th>
+                    <th>GWA</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Student GWA System. Made by Timothy Amiel Azucena. All rights reserved.</p>
+    </footer>
+
+    <script src="scrpt.js"></script>
+</body>
+</html>
