@@ -3,7 +3,7 @@ function goHome() {
 }
 
 function viewGrades() {
-    if (!localStorage.getItem("username")) {
+    if (!sessionStorage.getItem("username")) {
         alert("Please enter your name before accessing the Grades page.");
         return;
     }
@@ -11,7 +11,7 @@ function viewGrades() {
 }
 
 function contactUs() {
-    if (!localStorage.getItem("username")) {
+    if (!sessionStorage.getItem("username")) {
         alert("Please enter your name before accessing the Contact Us page.");
         return;
     }
@@ -25,14 +25,14 @@ function greetUser() {
         return;
     }
 
-    localStorage.setItem("username", name);
+    sessionStorage.setItem("username", name);
 
     document.getElementById("greeting-message").innerText = `Hello, ${name}! 
     Welcome to the Student Grading System.`;
 }
 
 window.onload = function () {
-    let savedName = localStorage.getItem("username");
+    let savedName = sessionStorage.getItem("username");
     if (savedName) {
         document.getElementById("username").value = savedName;
         document.getElementById("greeting-message").innerText = `Hello, ${savedName}! Welcome to the Student Grading System.`;
