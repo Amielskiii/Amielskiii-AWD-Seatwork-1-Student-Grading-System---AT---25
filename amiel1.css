@@ -1,0 +1,206 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #024202; 
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #756506;
+    color: #F1C40F; 
+    font-family: 'URW Palladio Bold', serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; 
+}
+
+.header-logo {
+    height: 80px;
+    margin-right: 15px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: auto; 
+}
+
+.header-buttons button {
+    background: #A3A30F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.header-buttons button:hover {
+    background: #FFD700;
+    color: black;
+}
+
+.floating-button {
+    display: block;
+    margin: 40px auto;
+    background: white;
+    color: black;
+    padding: 12px 25px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    animation: floating 2s infinite ease-in-out;
+    transition: all 0.3s ease;
+}
+
+@keyframes floating {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+}
+
+.floating-button:hover {
+    background: #333;
+    color: white;
+    border-color: white;
+}
+
+footer {
+    background: #756506;
+    color: #F1C40F;
+    padding: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'URW Palladio Bold', serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    background: #F1C40F;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th {
+    background: #A3A30F;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="number"]:focus {
+    border-color: #2980b9;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(52, 152, 219, 0.7);
+}
+
+button {
+    padding: 12px 18px;
+    background: #3498db;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+}
