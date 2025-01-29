@@ -1,5 +1,5 @@
 function goHome() {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 
 function viewGrades() {
@@ -7,7 +7,7 @@ function viewGrades() {
         alert("Please enter your name before accessing the Grades page.");
         return;
     }
-    window.location.href = "index.html";
+    window.location.href = "grades.html";
 }
 
 function contactUs() {
