@@ -9,7 +9,7 @@
     <img src="./assets/img/readme.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Cinema Reservation</h3>
+  <h3 align="center">Student Grading System</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
