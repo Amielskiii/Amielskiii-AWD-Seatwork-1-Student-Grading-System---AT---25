@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/ckhole25">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="nyepmiyu.png" alt="Nyork" width="130" height="100">
+    <img src="nyemaraw.png" alt="Nyork" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Student Grading System</h3>
