@@ -121,3 +121,6 @@ WD-ProjectName
 |-|-|-|
 | Backround Images | Logo | Google |
 | Styles | i got some help from youtube | Youtube.com |
+
+Published link:
+https://amielskiii.github.io/Amielskiii-AWD-Seatwork-1-Student-Grading-System---AT---25/
